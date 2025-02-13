@@ -1,7 +1,7 @@
 # AdSERP
 A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages
 
-**Note:** We provided 10 randomly selected data samples for the reviewers, which include all the corresponding data (mouse movements, fixations, pupil data, AOIs, metadata, screenshots, screen recordings, and HTML files) for SIGIR 2025 reviewers of our paper. We are committed to publishing the full dataset upon acceptance.
+**Note:** We provided 10 randomly selected data samples for the reviewers, which include all the corresponding data (mouse movements, fixations, pupil data, AOIs, metadata, screenshots, screen recordings, and HTML files). We are committed to publishing the full dataset upon acceptance.
 
 <img src="https://github.com/kayhan-latifzadeh/AdSERP-testbed/blob/main/logo.png?raw=true" alt="AdSERP Logo" width="300">
 
