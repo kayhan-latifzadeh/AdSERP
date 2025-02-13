@@ -1,0 +1,48 @@
+participant_id,gender,age,english,education,pref_device,pref_website,online_shopping_freq
+p004,Female,40,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p005,Female,36,Intermediate,Graduate,Computers or laptops,Rarely,Amazon
+p006,Female,32,Intermediate,Graduate,Computers or laptops,Monthly,Amazon
+p007,Female,36,Advanced,Graduate,Computers or laptops,Monthly,Other
+p008,Female,28,Advanced,Graduate,Smartphones,Rarely,Amazon
+p009,Male,32,Advanced,Graduate,Smartphones,Rarely,Amazon
+p010,Female,38,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p011,Male,37,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p012,Female,31,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p013,Male,28,Intermediate,Graduate,Computers or laptops,Monthly,Amazon
+p014,Male,31,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p015,Male,27,Advanced,Graduate,Computers or laptops,Monthly,Alibaba
+p016,Female,27,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p017,Female,35,Advanced,High school diploma,Computers or laptops,Monthly,Amazon
+p018,Male,43,Native speaker,Graduate,Computers or laptops,Rarely,Amazon
+p019,Female,23,Advanced,Bachelor's degree,Computers or laptops,Rarely,Amazon
+p020,Female,27,Advanced,Bachelor's degree,Computers or laptops,Monthly,Amazon
+p021,Male,27,Native speaker,Bachelor's degree,Smartphones,Rarely,Amazon
+p022,Male,19,Native speaker,High school diploma,Computers or laptops,Rarely,Amazon
+p023,Male,24,Advanced,High school diploma,Smartphones,Weekly,Amazon
+p024,Male,32,Advanced,Graduate,Smartphones,Weekly,Amazon
+p025,Female,23,Advanced,High school diploma,Computers or laptops,Weekly,Amazon
+p026,Male,31,Advanced,Graduate,Computers or laptops,Monthly,eBay
+p027,Female,20,Advanced,High school diploma,Computers or laptops,Monthly,Amazon
+p028,Male,22,Native speaker,High school diploma,Computers or laptops,Rarely,Amazon
+p029,Male,25,Advanced,High school diploma,Computers or laptops,Weekly,Amazon
+p030,Male,29,Advanced,Graduate,Computers or laptops,Rarely,Amazon
+p031,Male,27,Native speaker,Graduate,Computers or laptops,Weekly,Amazon
+p032,Female,44,Advanced,Bachelor's degree,Smartphones,Monthly,Amazon
+p033,Male,24,Advanced,Bachelor's degree,Computers or laptops,Monthly,Amazon
+p034,Male,29,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p035,Male,19,Advanced,High school diploma,Computers or laptops,Rarely,Amazon
+p036,Female,35,Intermediate,Graduate,Computers or laptops,Rarely,Amazon
+p037,Female,27,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p038,Female,29,Advanced,Graduate,Computers or laptops,Rarely,Amazon
+p039,Male,34,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p040,Male,39,Advanced,Graduate,Smartphones,Monthly,Amazon
+p041,Male,37,Advanced,Graduate,Computers or laptops,Rarely,Amazon
+p042,Male,20,Advanced,High school diploma,Computers or laptops,Rarely,Amazon
+p043,Male,40,Intermediate,Graduate,Computers or laptops,Rarely,Amazon
+p044,Male,20,Advanced,High school diploma,Computers or laptops,Rarely,Amazon
+p045,Female,29,Advanced,Graduate,Computers or laptops,Weekly,Amazon
+p046,Female,29,Advanced,Graduate,Computers or laptops,Monthly,Amazon
+p047,Male,27,Native speaker,Graduate,Smartphones,Rarely,Other
+p048,Male,32,Advanced,Graduate,Computers or laptops,Weekly,Amazon
+p049,Female,29,Advanced,Bachelor's degree,Smartphones,Monthly,Amazon
+p050,Male,21,Advanced,High school diploma,Computers or laptops,Rarely,Other
