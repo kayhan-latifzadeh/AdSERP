@@ -48,7 +48,7 @@ Rendered full-page screenshots of the corresponding SERPs are in `data/screen-re
 
 Example:
 
-<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/data/full-page-screenshots/p019-20230208125022-b4-t2.png?raw=true" alt="Full-page screenshots example" width="300">
+<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/data/full-page-screenshots/p019-b4-t2.png?raw=true" alt="Full-page screenshots example" width="300">
 
 ### Ad boundary files
 These files in `data/ad-boundary-data` contain the slot boundaries of organic and direct-display ads on the screenshots in [JSON](https://www.json.org/json-en.html) format.
