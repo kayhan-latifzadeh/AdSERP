@@ -3,7 +3,7 @@ A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages
 
 **Note:** We provided 10 randomly selected data samples for the reviewers, which include all the corresponding data (mouse movements, fixations, pupil data, AOIs, metadata, screenshots, screen recordings, and HTML files). We are committed to publishing the full dataset upon acceptance.
 
-<img src="https://github.com/kayhan-latifzadeh/AdSERP-testbed/blob/main/logo.png?raw=true" alt="AdSERP Logo" width="300">
+<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/logo.png?raw=true" alt="AdSERP Logo" width="300">
 
 
 ## Data file naming convention
@@ -48,7 +48,7 @@ Rendered full-page screenshots of the corresponding SERPs are in `data/screen-re
 
 Example:
 
-<img src="https://github.com/kayhan-latifzadeh/AdSERP-testbed/blob/main/data/full-page-screenshots/p019-20230208125022-b4-t2.png?raw=true" alt="Full-page screenshots example" width="300">
+<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/data/full-page-screenshots/p019-20230208125022-b4-t2.png?raw=true" alt="Full-page screenshots example" width="300">
 
 ### Ad boundary files
 These files in `data/ad-boundary-data` contain the slot boundaries of organic and direct-display ads on the screenshots in [JSON](https://www.json.org/json-en.html) format.
@@ -260,5 +260,5 @@ In `data/screen-recordings` you can find screen recordings for each trial.
 
 Example (converted and sped up to a GIF):
 
-<img src="https://github.com/kayhan-latifzadeh/AdSERP-testbed/blob/main/trial-recording-example.gif?raw=true" alt="AdSERP Trial Recording Example" width="500">
+<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/trial-recording-example.gif?raw=true" alt="AdSERP Trial Recording Example" width="500">
 
