@@ -259,3 +259,8 @@ Example (sped up and converted a GIF):
 
 <img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/trial-recording-example.gif?raw=true" alt="AdSERP Trial Recording Example" width="500">
 
+## Citation
+
+If you use the dataset, please cite us using this bibliographic reference:
+
+* Kayhan Latifzadeh, Jacek Gwizdka, Luis A. Leiva; **A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages**, SIGIR 2025, https://doi.org/10.1145/3726302.3730325
