@@ -5,7 +5,7 @@ A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages
 
 ## Data file naming convention
 
-Each type of data (e.g. eye movement, mouse movement etc) has this naming convention:  
+Please download the dataset from [here](https://zenodo.org/records/15236546). Each type of data (e.g. eye movement, mouse movement etc) has this naming convention:  
 
 `[PARTICPANT_ID]-b[BLOCK_NUMBER]-t[TRIAL_NUMBER]`
 
