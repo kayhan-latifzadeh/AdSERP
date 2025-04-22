@@ -255,7 +255,7 @@ xpaths = mt_data_df['xpath'].values
 
 In `data/screen-recordings` you can find screen recordings for each trial.
 
-Example (converted and sped up to a GIF):
+Example (sped up and converted a GIF):
 
 <img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/trial-recording-example.gif?raw=true" alt="AdSERP Trial Recording Example" width="500">
 
