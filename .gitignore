@@ -19,3 +19,13 @@ Desktop.ini
 *.swp
 *.swo
 *.tmp
+
+# data sub-dirs:
+data/ad-boundary-data
+data/fixation-data
+data/full-page-screenshots
+data/mouse-movement-data
+data/pupil-data
+data/screen-recordings
+data/serps
+data/trial-metadata
