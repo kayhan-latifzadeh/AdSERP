@@ -265,6 +265,16 @@ If you use the dataset, please cite us using this bibliographic reference:
 
 * Kayhan Latifzadeh, Jacek Gwizdka, Luis A. Leiva. 2025. **A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages**. <em>In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. https://doi.org/10.1145/3726302.3730325
 
+```bibtex
+@inproceedings{latifzadeh2025adserp,
+  title={A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages},
+  author={Latifzadeh, Kayhan and Gwizdka, Jacek and Leiva, Luis A.},
+  booktitle={Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2025},
+  doi={10.1145/3726302.3730325}
+}
+```
+
 ## Related papers
 
 The AdSERP dataset has been used in the paper(s) listed below. If you use the dataset in your publications, please email us, and we will include your paper here.
