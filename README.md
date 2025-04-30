@@ -263,4 +263,10 @@ Example (sped up and converted a GIF):
 
 If you use the dataset, please cite us using this bibliographic reference:
 
-* Kayhan Latifzadeh, Jacek Gwizdka, Luis A. Leiva; **A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages**, SIGIR 2025, https://doi.org/10.1145/3726302.3730325
+* Kayhan Latifzadeh, Jacek Gwizdka, Luis A. Leiva. 2025. **A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages**. <em>In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. https://doi.org/10.1145/3726302.3730325
+
+## Related papers
+
+The AdSERP dataset has been used in the paper(s) listed below. If you use the dataset in your publications, please email us, and we will include your paper here.
+
+* Mario Villaizán-Vallelado, Matteo Salvatori, Kayhan Latifzadeh, Antonio Penta, Luis A. Leiva, Ioannis Arapakis. 2025. **AdSight: Scalable and Accurate Quantification of User Attention in Multi-Slot Sponsored Search**. <em>In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. https://doi.org/10.1145/3726302.3729891
