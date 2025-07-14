@@ -1,4 +1,4 @@
-[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3726302.3730325-blue)](https://doi.org/10.1145/3726302.3729891)
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3726302.3730325-blue)](https://doi.org/10.1145/3726302.3730325)
 
 
 # AdSERP
