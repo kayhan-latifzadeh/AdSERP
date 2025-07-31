@@ -1,10 +1,9 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3726302.3730325-blue)](https://doi.org/10.1145/3726302.3730325)
 
 
-# AdSERP
-A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages [&#91;Preprint on ResearchGate&#93;](https://www.researchgate.net/profile/Kayhan-Latifzadeh/publication/391700647_A_Versatile_Dataset_of_Mouse_and_Eye_Movements_on_Search_Engine_Results_Pages/links/682350d16b5a287c304111dc/A-Versatile-Dataset-of-Mouse-and-Eye-Movements-on-Search-Engine-Results-Pages.pdf)
+# AdSERP - A Versatile Dataset of Mouse and Eye Movements on Search Engine Results Pages
 
-<img src="https://github.com/kayhan-latifzadeh/AdSERP/blob/main/logo.png?raw=true" alt="AdSERP Logo" width="300">
+**Abstract:** We contribute a comprehensive dataset to study user attention and purchasing behavior on Search Engine Result Pages (SERPs). Previous work has relied on mouse movements as a low-cost large-scale behavioral proxy but also has relied on self-reported ground-truth labels, collected at post-task, which can be inaccurate and prone to biases. To address this limitation, we use an eye tracker to construct an objective ground-truth of continuous visual attention. Our dataset comprises 2,776 transactional queries on Google SERPs, collected from 47 participants, and includes: (1) HTML source files, with CSS and images; (2) rendered SERP screenshots; (3) eye movement data; (4) mouse movement data; (5) bounding boxes of direct display and organic advertisements; and (6) scripts for further preprocessing the data. In this paper we provide an overview of the dataset and baseline experiments (classification tasks) that can inspire researchers about the different possibilities for future work. &#91;[ACM DL](https://doi.org/10.1145/3726302.3730325)&#93; &#91;[arXiv](https://arxiv.org/abs/2507.08003)&#93;
 
 ## Data file naming convention
 
