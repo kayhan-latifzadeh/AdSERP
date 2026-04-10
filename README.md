@@ -169,10 +169,10 @@ The `data/mouse-movement-data` folder has all the log files, as recorded by the 
 
   Here you can find space-delimited files (CSV) with information about each event type:
 
-  Each CSV file has 8 columns:
+  Each CSV file has 5 columns:
   * `timestamp`: (int) Timestamp of the event, with millisecond precision.
-  * `xpos`: (int) X position of the mouse cursor.
-  * `ypos`: (int) Y position of the mouse cursor.
+  * `xpos`: (int) Document-space X position of the mouse cursor (equivalent to the DOM `MouseEvent.pageX` property). This is relative to the left edge of the full document, not the viewport.
+  * `ypos`: (int) Document-space Y position of the mouse cursor (equivalent to the DOM `MouseEvent.pageY` property). This is relative to the top of the full document, not the viewport — so on scrolled pages, `ypos` values can exceed `window.innerHeight`. For scroll events, `ypos` records the cumulative vertical scroll offset.
   * `event`: (string) Browser's event name; e.g. `load`, `mousemove`, `click`, etc.
   * `xpath` (string) Target element that relates to the event, [in XPath notation](https://en.wikipedia.org/wiki/XPath).
 
@@ -229,23 +229,23 @@ mt_data_df = pd.read_csv('path_to_mouse_movement_csv_file')
 trial_info_dict = extract_trial_info('path_to_corresponding_xml_file')
 
 
-# screen size of the monitor
-DISPLAY_WIDTH = 1280
-DISPLAY_HEIGHT = 1024
+# Screenshot viewport width (all screenshots are rendered at 1280px wide)
+SCREENSHOT_WIDTH = 1280
 
-# window size of the web browser
+# Window size of the web browser during recording
 win_width = trial_info_dict['window-width']
-win_height = trial_info_dict['window-height']
 
-# extract those rows of data that a mousemove happend
+# xpos/ypos are in document-space (full-page coordinates including scroll).
+# Only the x-axis needs scaling — from the browser's window width to the
+# screenshot's 1280px viewport. ypos is already in document-space and maps
+# directly to the y-axis of the full-page screenshot.
+ratio_x = SCREENSHOT_WIDTH / win_width
+
+# extract those rows of data that a mousemove happened
 mt_data_df = mt_data_df[mt_data_df['event'].isin(['mousemove', 'mouseover'])]
 
-# converting the xs, ys to absolute positions on the corresponding screenshot
-for index, row in mt_data_df.iterrows():
-    ratio_x = row['xpos']/win_width
-    ratio_y = row['ypos']/win_height
-    mt_data_df.loc[index, 'xpos'] = int(DISPLAY_WIDTH*ratio_x)
-    mt_data_df.loc[index, 'ypos'] = int(DISPLAY_HEIGHT*ratio_y)
+mt_data_df['xpos'] = (mt_data_df['xpos'] * ratio_x).astype(int)
+# ypos stays as-is — it's already document y
 
 # let's get each column as a list of values
 timestamps = mt_data_df['timestamp'].values
