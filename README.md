@@ -283,6 +283,8 @@ If you use the dataset, please cite us using this bibliographic reference:
 
 The AdSERP dataset has been used in the paper(s) listed below. If you use the dataset in your publications, please email us, and we will include your paper here.
 
-* Mario Villaizán-Vallelado, Matteo Salvatori, Kayhan Latifzadeh, Antonio Penta, Luis A. Leiva, Ioannis Arapakis. 2025. **AdSight: Scalable and Accurate Quantification of User Attention in Multi-Slot Sponsored Search**. <em>In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. [&#91;DOI&#93;](https://doi.org/10.1145/3726302.3729891) [&#91;arXiv&#93;](https://arxiv.org/abs/2505.01451)
+* Lingfeng Huang, Huizhong Guo, Tianjun Wei, Yingpeng Du, and Zhu Sun. 2026. **Through Their Eyes: Fixation-aligned Tuning for Personalized User Emulation**. <em>arXiv preprint arXiv:2604.09368</em>. [&#91;arXiv&#93;](https://arxiv.org/abs/2604.09368)
 
 * Stefan Lengauer, Sarah Annabelle Von Götz, Marie-Therese Hoesch, Florian Dieter Steinwidder, Mariia Tytarenko, Michael Bedek, Tobias Schreck. 2025. **GUIDAETA—A Versatile Interactions Dataset with Extensive Context Information and Metadata**. <em>arXiv preprint arXiv:2511.20328</em>. [&#91;arXiv&#93;](https://arxiv.org/abs/2511.20328)
+
+* Mario Villaizán-Vallelado, Matteo Salvatori, Kayhan Latifzadeh, Antonio Penta, Luis A. Leiva, Ioannis Arapakis. 2025. **AdSight: Scalable and Accurate Quantification of User Attention in Multi-Slot Sponsored Search**. <em>In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. [&#91;DOI&#93;](https://doi.org/10.1145/3726302.3729891) [&#91;arXiv&#93;](https://arxiv.org/abs/2505.01451)
