@@ -1,0 +1,10 @@
+# Datasets and generated inputs
+dataset/
+data/
+
+# Model outputs
+saved_models/
+
+# Python
+__pycache__/
+*.pyc
